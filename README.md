@@ -1,11 +1,11 @@
 # NuXkiT
-NuXkiT is a featured CodeHub Command-Line Interface (CLI) allows admins to interact with statistics on the client side. NuX uses RESTful API service to transfer data. Also you need to be signed in as an admin on the server. In this case, CodeHub can generate a new token for you, so you can use the achieved token key to integrate with suggestions, snippets, and teammates are submitted in the database.
+NuXkiT is a featured CodeHub Command-Line Interface (CLI) allows admins to interact with statistics on the client side. NuX uses RESTful API service to transfer data. Also, you need to be signed in as an admin on the server. In this case, CodeHub can generate a new token for you, so you can use the achieved token key to integrate with suggestions, snippets, and teammates are submitted to the database.
 
 ### Login
 First, you can use the facilities if you log in. You are able to login/out any time you want with commanders.
 
 ### Commander
-NuX is kind of console-based program lets you to communicate in an interactive shell. Here is a listed table that shows you the available commands in NuX.
+NuX is a kind of console-based program lets you to communicate in an interactive shell. Here we have a listed table that shows you the available commands in NuX.
 
 |  Command        | Description                | Short Form  |
 | :-------------: | :------------------------: | :---------: |
@@ -18,7 +18,7 @@ NuX is kind of console-based program lets you to communicate in an interactive s
 | `exit`          | to exit the cocnsole       | `exit`      |
 
 ### End-points (According to [CodeHub Admin APIs](https://github.com/CodeHub-Contributors/CodeHub#admin-api))
-You may need to transfer data from the client side to the server using APIs, so there is no concerns. 
+You may need to transfer data from the client side to the server using APIs, so there are no concerns. 
 #### 1. Authentication
 CodeHub is a Token-based website that allows admins to transfer data using Application/JSON style. After the migration you can access to `../api/vX/admin/login` or `../api/vX/admin/logout` to both logging in or logging out from the website.
 
