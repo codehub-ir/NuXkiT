@@ -5,6 +5,9 @@ class colors:
     end = '\033[0m'
     bold = '\033[1m'
 
+
+help = """this is help"""
+
 nux = """
           ___             ___     
          /\__\           /__/|    
@@ -31,6 +34,24 @@ logout_url = 'http://codehub.pythonanywhere.com/api/v1/admin/logout/'
 
 snippet_url = 'http://codehub.pythonanywhere.com/api/v1/admin/snippet/'
 team_url = 'http://codehub.pythonanywhere.com/api/v1/admin/team/'
-suggest = 'http://codehub.pythonanywhere.com/api/v1/admin/suggest/'
+suggest_url = 'http://codehub.pythonanywhere.com/api/v1/admin/suggest/'
 
 server_url = 'http://codehub.pythonanywhere.com/'
+
+indexes = [
+    'logout',
+    'snippet',
+    'teammate',
+    'suggest',
+    'help',
+    'clear',
+    'exit',
+]
+
+
+def oinput(text):
+    return input(colors.bold+text+colors.end+' > ')
+
+
+def param(text):
+    return colors.bold+text+colors.end+' > '
