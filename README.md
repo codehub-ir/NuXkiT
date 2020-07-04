@@ -15,7 +15,7 @@ NuX is a kind of console-based program lets you to communicate in an interactive
 | `help`          | to see the admin manual    | `help`      |
 | `logout`        | logout and login into NuX  | `logout`    |
 | `clear`         | to clear the console       | `clea`      |
-| `exit`          | to exit the cocnsole       | `exit`      |
+| `exit`          | to exit the console        | `exit`      |
 
 ### End-points (According to [CodeHub Admin APIs](https://github.com/CodeHub-Contributors/CodeHub#admin-api))
 You may need to transfer data from the client side to the server using APIs, so there are no concerns. 
