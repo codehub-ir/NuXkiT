@@ -6,14 +6,13 @@ class colors:
     bold = '\033[1m'
 
 
-help = """
-snippet  --> to show snippets       | SHORT FORM {snip}
-teammate --> to show teammates      | SHORT FORM {team}
-suggest  --> to show suggestions    | SHORT FORM {sugg}
-logout   --> to logout from session | SHORT FORM {logout}
-clear    --> to clear the console   | SHORT FORM {clea}
-exit     --> to exit the from shell | SHORT FORM {exit}
-"""
+help = """COMMANDS -- [command]{short form}\t[description]
+  snippet{snip}         Shows all served snippets
+  teammate{team}        Shows all registered teammates
+  suggest{sugg}         Shows all up suggestions
+  logout{logout}        To logout from the current session
+  clear{clea}           Clears the console prompt
+  exit{exi}             To exit"""
 
 nux = """
           ___             ___     
