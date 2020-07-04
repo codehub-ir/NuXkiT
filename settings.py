@@ -6,7 +6,14 @@ class colors:
     bold = '\033[1m'
 
 
-help = """this is help"""
+help = """
+snippet  --> to show snippets       | SHORT FORM {snip}
+teammate --> to show teammates      | SHORT FORM {team}
+suggest  --> to show suggestions    | SHORT FORM {sugg}
+logout   --> to logout from session | SHORT FORM {logout}
+clear    --> to clear the console   | SHORT FORM {clea}
+exit     --> to exit the from shell | SHORT FORM {exit}
+"""
 
 nux = """
           ___             ___     
